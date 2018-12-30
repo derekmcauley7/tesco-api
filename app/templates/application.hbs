@@ -1,5 +1,9 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
+<a href="/"><h1 class="center-text">Tesco API</h1></a>
 {{outlet}}
+<br>
+<h2 class="center-text">Click a category below</h2>
+<br>
+<div class="cat-list">
+<a {{action 'goTo' 'beer'}}> Beers</a><br>
+<a {{action 'goTo' 'wine'}}> Wine</a><br>
+</div>

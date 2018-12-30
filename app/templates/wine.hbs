@@ -1,0 +1,16 @@
+<h2 class="heading-two">Wines</h2>
+<div class="container">
+  <div class="row">
+    {{#each model as |wine|}}
+      <div class="col-md-3">
+        <img src="{{wine.image}}" />
+        <br>
+        <b>Name:</b> {{wine.name}} <br>
+        <b>Price:</b>  {{wine.price}} <br>
+        <b>Quality:</b>  {{wine.ContentsQuantity}} {{wine.ContentsMeasureType}} <br>
+        <br><br>
+      </div>
+    {{/each}}
+  </div>
+</div>
+{{outlet}}
