@@ -1,7 +1,11 @@
 # tesco-api
+:pencil:
+Messing around with the Tesco Labs API to get a list of Beers and Wines.
+¯\_(ツ)_/¯
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+https://devportal.tescolabs.com
+
+<img width="1171" alt="screenshot 2018-12-30 at 15 35 27" src="https://user-images.githubusercontent.com/5990147/50548692-3ef68500-0c49-11e9-9d7c-22960cce37f8.png">
 
 ## Prerequisites
 
