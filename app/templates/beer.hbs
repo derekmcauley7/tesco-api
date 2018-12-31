@@ -1,5 +1,19 @@
 <h2 class="heading-two">Beers</h2>
 <div class="container">
+  Search: {{input type='text'  action="search" value=value }}
+  <br><br><br>
+
+  {{#each remainingBeers as |beer|}}
+    <div class="col-md-3">
+      <img src="{{beer.image}}" />
+      <br>
+      <b>Name:</b> {{beer.name}} <br>
+      <b>Price:</b>  {{beer.price}} <br>
+      <b>Quality:</b>  {{beer.ContentsQuantity}} {{beer.ContentsMeasureType}} <br>
+      <br><br>
+    </div>
+  {{/each}}
+
   <div class="row">
     {{#each model as |beer|}}
       <div class="col-md-3">
